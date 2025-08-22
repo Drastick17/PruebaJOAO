@@ -11,7 +11,7 @@ export default function NewTaskInput() {
   }
 
   return (
-    <div className='mb-10 w-2xl flex justify-center'>
+    <div className='mb-10 w-full md:w-2xl flex justify-center'>
       <input
         value={description}
         onChange={({ target }) => setDescription(target.value)}

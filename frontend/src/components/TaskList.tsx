@@ -20,7 +20,7 @@ export default function TaskList({ tasks }: TaskListProps) {
     )
 
   return (
-    <ul className='w-2xl'>
+    <ul className='w-full md:w-2xl'>
       {tasks.map((task) => (
         <TaskComponent
           key={task.id}

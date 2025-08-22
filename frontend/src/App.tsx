@@ -20,7 +20,7 @@ function App() {
 
   return (
     <main className='flex flex-col justify-start items-center px-10 py-20 min-h-screen bg-slate-100'>
-      <h1 className='text-7xl my-10'>Lista de Tareas</h1>
+      <h1 className='text-5xl md:text-7xl my-10'>Lista de Tareas</h1>
       <NewTaskInput />
       <TaskList tasks={tasks} />
     </main>

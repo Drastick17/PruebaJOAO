@@ -19,7 +19,7 @@ export default function Task({ completed, description, id }: TaskProps) {
           className="cursor-pointer form-checkbox h-5 w-5 text-blue-600"
         />
         <span
-          className={clsx('text-lg', {
+          className={clsx('text-lg text-pretty', {
             'line-through text-gray-400': completed,
             'text-gray-800': !completed,
           })}
